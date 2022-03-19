@@ -1,3 +1,4 @@
+import json
 import tkinter as tk
 from functools import partial
 from tkinter import messagebox, filedialog
@@ -40,6 +41,7 @@ def qr_generator():
             ",".join([x for x in data if data[x] == ""])))
     else:
         text_to_qr_generator(data)
+        data = json.dumps(data)
         print("Data is {}".format(data))
         qr_img = Image.open("QRCode.png")
         global img
