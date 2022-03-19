@@ -13,7 +13,7 @@ A QR code generator is a software which stores data into a QR code.
 
 ![image](https://user-images.githubusercontent.com/46484628/159116742-58de3f51-0988-42aa-a4bb-4989fd256e18.png)
 
-# Data stored in QR Code
+## Data stored in QR Code
 
 ```bash
 {
